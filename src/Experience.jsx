@@ -15,7 +15,7 @@ export default function Experience() {
     useHelper(directionalLightRef, DirectionalLightHelper, 1)
 
     const { color, opacity, blur} = useControls('contact shadows', {
-        color: '#1d8f75',
+        color: '#5DADE2',
         opacity: { value: 0.4, min:0.5, max:1},
         blur: {value:2.8, min:0, max:10}
     })
